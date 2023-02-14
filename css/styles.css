@@ -1156,10 +1156,10 @@ font-weight: 500;
 
 
 
-@media screen and (min-width:428px) and
+@media screen and (min-width:480px) and
 (max-width:767px){
         .conteiner {
-            width: 428px;
+            width: 480px;
         padding: 0 15px;
             margin: 0 auto;
         }
@@ -1304,7 +1304,8 @@ margin: 0 auto;
 
 
 .ul-customers{
-
+display: flex;
+flex-wrap: wrap;
 flex-basis: 50%;
 
   
