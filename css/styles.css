@@ -1310,6 +1310,35 @@ flex-basis: 50%;
   
 }
 
+.clearal{
+    display: none;
+}
+
+
+.menu-button-phone{
+display: inline-flex;
+margin: 0;
+padding: 0;
+border: none;
+
+}
+
+
+
+.menu-button-phone .icon-cross{
+    display: none;
+
+}
+
+
+.menu-button-phone.is-open .icon-cross{
+    display: block;
+
+}
+.menu-button-phone.is-open .icon-burger{
+    display: none;
+}
+
 
 
 
