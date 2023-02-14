@@ -49,6 +49,9 @@ p {
     margin-left: 76px;
 }
 
+.menu-button-phone {
+    display: none;
+}
 
 
 .li-nav:not(:last-child){
@@ -1146,6 +1149,190 @@ font-weight: 500;
         padding: 0 15px;
         margin: 0 auto;
     }
+         .company-motto {
+             color: #FFFFFF;
+         font-weight: 700;
+             margin: 0 auto;
+             margin-bottom: 72px;
+              font-size: 56px;
+             text-align: center;
+             letter-spacing: 0.02em;
+             margin-bottom: 40px;
+            
+       line-height: 1.07;
+         
+            }
+   .motto-button {
+       background-color: #2E2F42;
+       text-align: center;
+       padding: 188px 0;
+
+    height: 436px;
+       background-image:
+           linear-gradient(to right,
+               rgba(46, 47, 66, 0.7),
+               rgba(46, 47, 66, 0.7)),
+           url(../images/office-sqed.jpg);
+       background-repeat: no-repeat;
+       background-position: center;
+       background-size: cover;
+       margin: 0 auto;
+
+
+
+   }
+
+.bg-icon ,  .work-sec {
+    display: none;
+}
+
+
+.feature-list,
+.team-ul {
+    display: flex;
+    flex-wrap: wrap;
+        flex-basis: 50%;
+        justify-content:center;
+}
+
+.servises {
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+
+
+    color: #2E2F42;
+
+}
+
+.servises-description {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
+
+    color: #434455;
+
+
+
+
+
+
+
+}
+
+
+.soc-all {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  
+
+margin-left: 108px;
+
+
+}
+
+
+
+.mailing-list {
+    display: flex;
+   
+ margin-top: 72px;
+margin-left:0 ;
+
+    align-items: flex-start;
+     
+        flex-direction: column;
+}
+
+.label-foot-mail {
+    display: flex;
+    gap: 16px;
+  
+    align-items: center;
+
+
+}
+
+.foot-links-txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.logo-rec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right:24px ;
+}
+
+
+.modal {
+
+    width: 392px;
+    height: 586px;
+
+
+}
+
+
+
+.ul-customers {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 33.3333%;
+
+
+}
+
+.menu-button-phone{
+    display: none;
+}
+
+
+.conectphg{
+
+display: flex;
+flex-direction: column;
+margin-left: 118px;
+}
+
+
+.mail , .phone{
+
+    font-weight: 400;
+        font-size: 12px;
+        line-height: 1.33;
+    
+        letter-spacing: 0.04em;
+    margin: 0;
+        color: #434455;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 }
