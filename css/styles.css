@@ -1156,12 +1156,12 @@ font-weight: 500;
 
 
 
-@media screen and (min-width:480px){
-        .conteiner {
-            width: 480px;
+@media screen and (min-width:428px) and (max-width:767px) {
+    .conteiner {
+        width: 428px;
         padding: 0 15px;
-            margin: 0 auto;
-        }
+        margin: 0 auto;
+    }
     
 
                 .company-motto {
@@ -1185,7 +1185,7 @@ font-weight: 500;
                background-color: #2E2F42;
                text-align: center;
                padding: 188px 0;
-        
+     
                 height: 432px;;
                background-image:
                    linear-gradient(to right,
