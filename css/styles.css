@@ -1139,7 +1139,7 @@ font-weight: 500;
 
 
 
-@media screen and (min-width:768px) {
+@media screen and (min-width:768px) and (max-width: 1199px) {
     
 .conteiner {
         width: 768px;
@@ -1156,7 +1156,8 @@ font-weight: 500;
 
 
 
-@media screen and (min-width:428px){
+@media screen and (min-width:428px) and
+(max-width:767px){
         .conteiner {
             width: 428px;
         padding: 0 15px;
@@ -1291,6 +1292,36 @@ align-items: center;
 margin: 0 auto;
 }
 
+
+.modal {
+ 
+    width: 392px;
+        height: 586px;
+
+
+}
+
+
+
+.ul-customers{
+
+flex-basis: 50%;
+
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}
 
 
 
