@@ -9,6 +9,11 @@
     margin: 0 auto;
     
 }
+.b-bg-icon{
+    display: none;
+
+
+}
 
 
 body{
@@ -1667,7 +1672,7 @@ margin-bottom: 42px;
 }
 
 
-.soc-med{
+.soc-med-tel{
   display: flex;
         gap: 56px;
         justify-content: space-between;
