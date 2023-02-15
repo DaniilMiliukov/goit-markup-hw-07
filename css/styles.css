@@ -1502,11 +1502,18 @@ flex-basis: 50%;
 .clearal{
     display: none;
 }
+.header-div{
+
+position: relative;
+
+}
 
  .menu-toggle {
      min-height: 40px;
      min-width: 40px;
      display: flex;
+     position: absolute;
+     right: 0;
      align-items: center;
      justify-content: center;
 
