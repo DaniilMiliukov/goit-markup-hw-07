@@ -4,11 +4,66 @@
 --main-font : Roboto,sans-serif
 }
 .conteiner{
-    width: 1158px;
+    width: 100%;
     padding: 0 15px;
     margin: 0 auto;
     
 }
+
+@media screen and (min-width:428px){
+
+.conteiner{
+width: 428px;
+
+
+}
+
+
+
+}
+
+
+@media screen and (min-width:768px) {
+
+    .conteiner {
+        width: 768px;
+
+
+    }
+
+
+
+}
+
+
+@media screen and (min-width:1158px) {
+
+    .conteiner {
+        width: 1158px;
+
+
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .b-bg-icon{
     display: none;
 
@@ -289,28 +344,21 @@ text-align: center;
     .motto-button {
      
     
-    background-color: #2E2F42;
-        text-align: center;
-        padding: 188px 0;
-        height: 600px;
-        max-width: 1440px;
-        background-image:
-            linear-gradient(to right,
-                rgba(46, 47, 66, 0.7),
-                rgba(46, 47, 66, 0.7)),
-            url(../images/pepino2@2x.jpg);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        margin: 0 auto;
-    
-    
-    
-    
-    
-    
-    
-    
+        background-color: #2E2F42;
+            text-align: center;
+            padding: 112px 0;
+            text-align: center;
+            height: 432px;
+            ;
+            background-image:
+                linear-gradient(to right,
+                    rgba(46, 47, 66, 0.7),
+                    rgba(46, 47, 66, 0.7)),
+                url(../images/office-sqed.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            margin: 0 auto;
     
     
     
@@ -1175,7 +1223,20 @@ font-weight: 500;
     border-radius: 4px;
    border: none;
     background-color: #4D5AE5;
-    margin: 0;
+    margin: 0 auto;
+    margin-top:16px ;
+}
+
+
+.footer-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+margin: 0 auto;
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
+
+    color: #FFFFFF;
 }
 
 .label-foot-mail{
@@ -1217,11 +1278,6 @@ font-weight: 500;
 
 @media screen and (min-width:768px) and (max-width:1199px)  {
     
-.conteiner {
-        width: 768px;
-        padding: 0 15px;
-        margin: 0 auto;
-    }
 
  .menu {
      display: none;
@@ -1239,9 +1295,19 @@ font-weight: 500;
 
 
          .company-motto {
+
+
+
+
+
+  
+    width: auto;
+
+
              color: #FFFFFF;
          font-weight: 700;
              margin: 0 auto;
+            max-width: 768px;
              margin-bottom: 72px;
               font-size: 56px;
              text-align: center;
@@ -1433,12 +1499,7 @@ margin-left: 118px;
 
 
 @media screen and (max-width:767px) {
-    .conteiner {
-        width: 320px;
-      
-        padding: 0 15px;
-        margin: 0 auto;
-    }
+
   
     
 
@@ -1447,19 +1508,22 @@ margin-left: 118px;
          font-weight: 700;
     margin: 0 auto;
      max-width: 320px;
- 
+ width: auto;
   font-size: 36px;
        text-align: center;
   letter-spacing: 0.02em;
    text-transform: capitalize;
     margin-bottom: 72px;
   }
-  .feature-list .item {
-     width: auto;
+  .feature-list .item{
 
 
+    min-width: 320px;
+    width: auto;
   }
-  
+
+
+ 
  
     .serv-sec{
 
@@ -1471,8 +1535,17 @@ margin-left: 118px;
         width: 100%;
     }
     .soc-back-men{
-        margin-right:56px ;
+        margin-right:40px ;
     }
+
+
+
+
+
+
+
+
+
      .li-cust{
 
 width: 190px;
@@ -1507,21 +1580,14 @@ height: 88x;
             
     
            .motto-button {
-               background-color: #2E2F42;
-               text-align: center;
-               padding: 112px 0;
-     text-align: center;
-                height: 432px;;
-               background-image:
-                   linear-gradient(to right,
-                       rgba(46, 47, 66, 0.7),
-                       rgba(46, 47, 66, 0.7)),
-                   url(../images/office-sqed.jpg);
-               background-repeat: no-repeat;
-               background-position: center;
-               background-size: cover;
-               margin: 0 auto;
-              
+      
+
+
+                background-image:
+                        linear-gradient(to right,
+                            rgba(46, 47, 66, 0.7),
+                            rgba(46, 47, 66, 0.7)),
+                        url(../images/pepino2@2x.jpg);
     
     
            }
@@ -1531,6 +1597,25 @@ height: 88x;
            .work-sec , .bg-icon{
 display: none;
            }
+           .form-input-com{
+    
+        margin-top: 4px;
+            border: 1px solid rgba(33, 33, 33, 0.2);
+            border-radius: 4px;
+            resize: none;
+            width: 360px;
+                height: 120px;
+                padding: 8px 16px;
+}.form-input-com {
+
+    margin-top: 4px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    resize: none;
+    width: 100%;
+    height: 120px;
+    padding: 8px 16px;
+}
 
 
 
@@ -1576,7 +1661,7 @@ max-width: 392px;
 height: 95%;
 max-height: 586px;
 overflow: scroll;
-position: abso
+
 
 
 
@@ -1584,10 +1669,7 @@ position: abso
 
 
 .soc-all{
-display: flex;
-    flex-direction: column;
-align-items: center;
-gap: 72px;
+display:block;
 
 
 
@@ -1597,9 +1679,7 @@ gap: 72px;
 
 
 .mailing-list{
-display: flex;
-flex-direction: column;
-align-items: center;
+display: block;
 
 
 margin: 0 auto;
@@ -1607,10 +1687,8 @@ margin: 0 auto;
 
 }
 .label-foot-mail {
-    display: flex;
-    gap: 16px;
-    flex-direction: column;
-    align-items: center;
+    display: block;
+    
 
 
 }
@@ -1630,13 +1708,6 @@ margin: 0 auto;
 }
 
 
-.modal {
- 
-    width: 392px;
-        height: 586px;
-
-
-}
 
 
 
